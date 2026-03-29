@@ -1,0 +1,13 @@
+# Core API framework
+fastapi==0.115.12
+uvicorn[standard]==0.34.0
+
+# Data validation and settings management
+pydantic==2.11.1
+pydantic-settings==2.8.1
+
+# Testing
+pytest==8.3.5
+pytest-asyncio==0.25.3
+pytest-cov==6.1.0
+httpx==0.28.1        # Required by FastAPI TestClient
